@@ -1,13 +1,46 @@
 site_name: Llenguatges de Marques i Sistemes de Gestió d'Informació
+author: Josep Magraner
+
 
 nav:
-  - Home: index.md
+  - Inici: index.md
+  - Unitat 4: 
+    - Introducció: u04/apartat1.md
   - Unitat 5:
-    - Apartat 1: U5_apartat1.md
+    - Introducció: u05/apartat1.md
+    - Sistemes d'emmagatzematge d'informació: u5/apartat2.md
+  - Unitat 6:
+    - Apartat 1: u06/apartat1.md
 
   
 
-theme: material
+theme:
+  name: material
+  language: ca 
+  palette:
+    primary: deep orange
+
+  features:
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
 
 docs_dir: 'md'
 site_dir: 'docs'
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      auto_title: true
+
+plugins:
+- search     
