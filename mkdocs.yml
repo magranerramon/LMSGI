@@ -1,3 +1,13 @@
-site_name: My Docs
+site_name: Llenguatges de Marques i Sistemes de Gestió d'Informació
+
+nav:
+  - Home: index.md
+  - Unitat 5:
+    - Apartat 1: U5_apartat1.md
+
+  
+
+theme: material
+
 docs_dir: 'md'
 site_dir: 'docs'
