@@ -1,16 +1,31 @@
 site_name: Llenguatges de Marques i Sistemes de Gestió d'Informació
-author: Josep Magraner
-
 
 nav:
   - Inici: index.md
-  - Unitat 4: 
-    - Introducció: u04/apartat1.md
-  - Unitat 5:
-    - Introducció: u05/apartat1.md
-    - Sistemes d'emmagatzematge d'informació: u5/apartat2.md
-  - Unitat 6:
-    - Apartat 1: u06/apartat1.md
+  # - Unitat 0: 
+  #   - Introducció: U00/U00.01_Intro.md
+  #   - Visual Studio Code: U00/U00.02_Code.md
+  #   - GitHub: U00/U00.03_GitHub.md
+  # - Unitat 1: index.md
+  - Unitat 2:
+    - Etiquetes Bàsiques: U02/U02.02_Caracteristiques.md
+    - Etiquetes de Format de text: U02/U02.03_Format_Text.md
+    - Entitats HTML: U02/U02.04_Entitats.md
+  # - Unitat 3: index.md
+  # - Unitat 4:  
+  #   - Introducció: U04/apartat1.md
+  #   - DTD: U04/U04.02_DTD.md
+  #   - XML Schema: U04/U04.03_Schema.md
+  #   - Transformació:
+  # - Unitat 5:
+  #   - Introducció: U05/U05.00_Intro.md
+  #   - Sistemes d'emmagatzematge d'informació: U05/U05.01_Sistemes.md
+  #   - Consulta i manipulació: U05/U05.02_Consulta.md
+  #   - Emmagatzematge XML natiu: U05/U05.03_Emmagatzematge.md
+  #   - Eines de tractament i emmagatzemament: U05/UO5.04_Eines.md
+  #   - Exercicis: U05/U05.05_Exercicis.md
+  # - Unitat 6:
+  #   - Apartat 1: U06/apartat1.md
 
   
 
@@ -18,12 +33,26 @@ theme:
   name: material
   language: ca 
   palette:
-    primary: deep orange
+    # Botó per a canviar al light mode
+    - scheme: default
+      primary: deep orange
+      toggle:
+        icon: material/brightness-7 
+        name: Mode fosc
+
+    # Botó per a canviar al dark mode
+    - scheme: slate
+      primary: deep orange
+      toggle:
+        icon: material/brightness-4
+        name: Mode lluminós
 
   features:
     - content.code.copy
     - content.code.select
     - content.code.annotate
+    - navigation.footer
+    - navigation.top
 
 docs_dir: 'md'
 site_dir: 'docs'
@@ -31,6 +60,7 @@ site_dir: 'docs'
 markdown_extensions:
   - admonition
   - attr_list
+  - md_in_html
   - pymdownx.details
   - pymdownx.superfences:
       custom_fences:
@@ -41,6 +71,13 @@ markdown_extensions:
       linenums: true
       anchor_linenums: true
       auto_title: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
 
 plugins:
-- search     
+  - search
+
+extra_css:
+- stylesheets/extra.css

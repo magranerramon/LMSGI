@@ -1,0 +1,12 @@
+
+div.navegador
+{
+    padding:10px;
+}
+
+div.navegador h1, div.navegador h2, div.navegador h3, div.navegador h4, div.navegador h5, div.navegador h6, div.navegador p
+{
+    font-family: initial;
+    margin:0 0 0 20px;
+    padding:0;
+}
