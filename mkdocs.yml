@@ -9,9 +9,12 @@ nav:
   # - Unitat 1: index.md
   - Unitat 2:
     - Etiquetes Bàsiques: U02/U02.02_Caracteristiques.md
-    - Etiquetes de Format de text: U02/U02.03_Format_Text.md
-    - Etiquetes d'enllaç: U02/U02.04_Hipervincles.md
-    - Entitats HTML: U02/U02.05_Entitats.md
+    - Format de text: U02/U02.03_Format_Text.md
+    - Hiperenllaços: U02/U02.04_Hipervincles.md
+    - Entitats: U02/U02.05_Entitats.md
+    - Llistes: U02/U02.06_Llistes.md
+    - Taules: U02/U02.07_Taules.md
+    - Imatges: U02/U02.08_Imatges.md
   # - Unitat 3: index.md
   # - Unitat 4:  
   #   - Introducció: U04/apartat1.md
