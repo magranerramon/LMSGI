@@ -9,8 +9,6 @@
       
       
       
-        <link rel="prev" href="../U02.03_Format_Text/">
-      
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -18,7 +16,7 @@
     
     
       
-        <title>Entitats HTML - Llenguatges de Marques i Sistemes de Gestió d'Informació</title>
+        <title>Altres - Llenguatges de Marques i Sistemes de Gestió d'Informació</title>
       
     
     
@@ -72,7 +70,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#entitats-html" class="md-skip">
+        <a href="#altres" class="md-skip">
           Salta el contingut
         </a>
       
@@ -108,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Entitats HTML
+              Altres
             
           </span>
         </div>
@@ -244,19 +242,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -270,7 +266,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Unitat 2
@@ -309,7 +305,7 @@
         
   
   <span class="md-ellipsis">
-    Etiquetes de Format de text
+    Format de text
   </span>
   
 
@@ -323,28 +319,102 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../U02.04_Hipervincles/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Entitats HTML
+    Hiperenllaços
   </span>
   
 
       </a>
-      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../U02.05_Entitats/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Entitats
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../U02.06_Llistes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Llistes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../U02.07_Taules/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Taules
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../U02.08_Imatges/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Imatges
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -377,6 +447,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Taula de continguts
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#marcs" class="md-nav__link">
+    <span class="md-ellipsis">
+      Marcs
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -390,68 +477,10 @@
                   
 
 
-<h1 id="entitats-html">Entitats HTML</h1>
-<p>Una entitat d'HTML, no és una etiqueta com a tal, és una seqüència de caràcters que es fa servir per a <strong>representar caràcters especials o reservats</strong> que podrien ser interpretats de manera incorrecta en un document HTML. Les entitats HTML permeten als desenvolupadors web incloure caràcters com <code>&lt;</code>, <code>&gt;</code>, <code>&amp;</code>, cometes dobles <code>"</code>, cometes simples <code>'</code> i altres caràcters especials sense interferir amb la sintaxi del codi HTML.</p>
-<p>L'ús de la codificació de caràcters en HTML és fonamental per evitar errors de sintaxi i garantir que el text es mostre correctament en el navegador. També és important per a la seguretat web, ja que evita la interpretació incorrecta de caràcters i pot prevenir atacs de script entre llocs web (cross-site scripting, o XSS).</p>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Si necessites representar un caràcter especial en HTML, simplement substitueix el caràcter pel seu equivalent d'entitat HTML. Per exemple, si vols mostrar una cometa doble (<code>"</code>) en el teu codi HTML, utilitzaries <code>&amp;quot;</code></p>
-</div>
-<p>A continuació, es mostren alguns dels caràcters especials més comuns i les seves entitats HTML equivalents:</p>
-<table>
-<thead>
-<tr>
-<th>Entitat</th>
-<th style="text-align: center;">Representació</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>&amp;lt;</code></td>
-<td style="text-align: center;"><code>&lt;</code> <em>(menor que)</em></td>
-</tr>
-<tr>
-<td><code>&amp;gt;</code></td>
-<td style="text-align: center;"><code>&gt;</code> <em>(major que)</em></td>
-</tr>
-<tr>
-<td><code>&amp;amp;</code></td>
-<td style="text-align: center;"><code>&amp;</code> <em>(ampersand)</em></td>
-</tr>
-<tr>
-<td><code>&amp;nbsp;</code></td>
-<td style="text-align: center;"><code></code> <em>(espai en blanc)</em></td>
-</tr>
-<tr>
-<td><code>&amp;quot;</code></td>
-<td style="text-align: center;"><code>"</code> <em>(cometes dobles)</em>.</td>
-</tr>
-<tr>
-<td><code>&amp;apos;</code>o <code>&amp;#39;</code></td>
-<td style="text-align: center;"><code>'</code> <em>(apostrof)</em></td>
-</tr>
-</tbody>
-</table>
-<div class="admonition example">
-<p class="admonition-title">Example</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">HTML</label><label for="__tabbed_1_2">Navegador</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<div class="highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">HTML</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1">1</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Els caràcters <span class="ni">&amp;lt;</span>, <span class="ni">&amp;gt;</span>, <span class="ni">&amp;quot;</span> y <span class="ni">&amp;amp;</span> poden donar problemes amb els texts en HTML<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-</code></pre></div></td></tr></table></div>
-</div>
-<div class="tabbed-block">
-<p><div class="navegador">
-    <p>Els caràcters &lt;, &gt;, &quot; y &amp; poden donar problemes amb els texts en HTML</p>
-</div></p>
-</div>
-</div>
-</div>
-</div>
-<details class="note">
-<summary>Més informació</summary>
-<p>Més informació sobre l'etiqueta <a href="https://www.w3schools.com/html/html_entities.asp">ací</a></p>
-</details>
+<h1 id="altres">Altres</h1>
+<h2 id="marcs">Marcs</h2>
+<p>L’element iframe ens permet emmarcar un rectangle que al mateix moment allotja un altra web. Els seus atributs són src per a indicar l’adreça del lloc que volem mostrar i width i height per a l’amplada i altura del marc. Si el document a mostrar és més gran que el propi marc, automàticament apareixeran les barres de desplaçament vertical i horitzontal en funció de les necessitats. </p>
+<p><code>&lt;iframe src=”doc.html” width=”500” height=”500”/&gt;</code></p>
 
 
 
@@ -482,28 +511,6 @@
       
         <footer class="md-footer">
   
-    
-      
-      <nav class="md-footer__inner md-grid" aria-label="Peu de pàgina" >
-        
-          
-          <a href="../U02.03_Format_Text/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Etiquetes de Format de text">
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-            </div>
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Anterior
-              </span>
-              <div class="md-ellipsis">
-                Etiquetes de Format de text
-              </div>
-            </div>
-          </a>
-        
-        
-      </nav>
     
   
   <div class="md-footer-meta md-typeset">

@@ -4,9 +4,17 @@ div.navegador
     padding:10px;
 }
 
-div.navegador h1, div.navegador h2, div.navegador h3, div.navegador h4, div.navegador h5, div.navegador h6, div.navegador p
+div.navegador h1, div.navegador h2, div.navegador h3, div.navegador h4, div.navegador h5, div.navegador h6, div.navegador p, div.navegador ul, div.navegador ol
 {
     font-family: initial;
     margin:0 0 0 20px;
     padding:0;
+}
+
+
+div.navegador table, div.navegador tr, div.navegador td, div.navegador th
+{
+    font-family: initial;
+    margin:0px;
+    padding:0px;
 }
